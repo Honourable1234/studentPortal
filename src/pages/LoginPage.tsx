@@ -39,6 +39,11 @@ const LoginPage = () => {
       {/* Glass card */}
       <div className="relative w-full max-w-sm rounded-3xl border border-white/20 bg-white/10 px-10 py-10 shadow-2xl backdrop-blur-md">
 
+        {/* Title */}
+        <h1 className="mb-6 text-center text-2xl font-semibold tracking-wide text-white">
+          Student Portal
+        </h1>
+
         {/* Avatar */}
         <div className="mx-auto mb-8 flex h-24 w-24 items-center justify-center rounded-full bg-white/20 ring-2 ring-white/30">
           <svg className="h-14 w-14 text-white/60" viewBox="0 0 24 24" fill="currentColor">
